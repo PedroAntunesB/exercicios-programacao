@@ -1,0 +1,9 @@
+A. Histórico do navegador — Pilha: É adequada porque a última página visitada é a primeira que será retirada quando o usuário clicar em "voltar".
+
+B. Pessoas aguardando atendimento — Fila: É adequada porque quem chega primeiro deve ser atendido primeiro, seguindo a ordem de chegada.
+
+C. Catálogo de produtos — Lista: É adequada porque podemos armazenar vários produtos e acessar, adicionar ou remover produtos da lista.
+
+D. Função "desfazer" — Pilha: É adequada porque a última alteração feita deve ser a primeira a ser desfeita.
+
+E. Playlist de músicas — Lista: É adequada porque podemos acessar as músicas pela posição, como a música 1, 2, 3 etc.
