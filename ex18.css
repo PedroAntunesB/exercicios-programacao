@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background-color: #f4f6f8;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1d3557;
+  color: white;
+  text-align: center;
+  padding: 30px 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  background-color: #457b9d;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f1fa8c;
+}
+
+main {
+  max-width: 900px;
+  margin: 25px auto;
+  padding: 0 15px;
+}
+
+section {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #1d3557;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #dbeafe;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #1d3557;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #457b9d;
+}
+
+/* Exemplo de uso de ID */
+#sobre {
+  border-top: 4px solid #457b9d;
+}
+
+footer {
+  background-color: #1d3557;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+@media (max-width: 600px) {
+  nav {
+    gap: 12px;
+  }
+
+  section {
+    padding: 15px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+}
